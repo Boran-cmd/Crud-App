@@ -1,0 +1,25 @@
+# Anleitung 1: Speichern von Projektdateien im htdocs-Ordner
+
+## Einleitung
+Diese Anleitung beschreibt, wie du deine Projektdateien (HTML, PHP, CSS usw.) im htdocs-Ordner von XAMPP speicherst, um sie im Webbrowser anzuzeigen.
+
+## Schritte
+
+1. **XAMPP-Ordner finden**
+   - Öffne den Datei-Explorer (Windows) oder Finder (Mac).
+   - Gehe zu C:\xampp (Windows) oder /opt/lampp (Linux/Mac), um den XAMPP-Installationsordner zu finden.
+
+2. **Öffne den htdocs-Ordner**
+   - Doppelklicke auf den Ordner htdocs. Dieser befindet sich im XAMPP-Ordner und ist der Hauptordner für Webprojekte.
+
+3. **Projektordner erstellen**
+   - Rechtsklicke im htdocs-Ordner und wähle Neu > Ordner.
+   - Nenne den neuen Ordner z.B. Crud-App.
+
+4. **Dateien kopieren**
+   - Kopiere alle benötigten Dateien (HTML, PHP, CSS, JavaScript usw.) in den neu erstellten Ordner Crud-App.
+   - Du kannst die Dateien einfach per Drag & Drop in den Ordner ziehen oder mit der rechten Maustaste kopieren und einfügen.
+
+5. **Zugriff über den Browser**
+   - Öffne deinen Webbrowser und gehe zu http://localhost/Crud-App.
+   - Deine Projektdateien sollten jetzt angezeigt werden.
