@@ -1,0 +1,31 @@
+# Anleitung 2: Umgang mit MySQL-Datenbanken in XAMPP
+
+## Einleitung
+Diese Anleitung erklärt, wie du MySQL-Datenbanken in XAMPP verwaltest, um Daten für deine Anwendung zu speichern und abzurufen.
+
+## Schritte
+
+1. **XAMPP starten**
+   - Öffne das XAMPP Control Panel.
+   - Klicke auf Start neben Apache und MySQL, um den Webserver und die Datenbank zu starten.
+
+2. **phpMyAdmin öffnen**
+   - Öffne deinen Webbrowser und gehe zu http://localhost/phpmyadmin.
+   - Dies öffnet die phpMyAdmin-Oberfläche zur Verwaltung deiner MySQL-Datenbanken.
+
+3. **Datenbank erstellen**
+   - Klicke auf Datenbanken im oberen Menü.
+   - Gib einen Namen für deine neue Datenbank ein (z.B. crud_app_db) und klicke auf Erstellen.
+
+4. **Tabellen erstellen**
+   - Wähle die neu erstellte Datenbank aus der linken Seitenleiste aus.
+   - Gib einen Tabellennamen und die Anzahl der Spalten ein und klicke auf Los.
+   - Definiere die Spalten, indem du die Namen, Datentypen und Attribute angibst (z.B. id, name, email).
+
+5. **Daten in die Tabelle einfügen**
+   - Wähle die Tabelle aus, die du erstellt hast.
+   - Klicke auf den Tab Einfügen und fülle die Felder aus.
+   - Klicke auf Los, um die Daten zu speichern.
+
+6. **Daten abrufen**
+   - Du kannst die Daten in deiner Anwendung verwenden, um sie anzuzeigen, zu bearbeiten oder zu löschen.
